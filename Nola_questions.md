@@ -27,6 +27,7 @@ These items are assumed available for every project and are not repeated in indi
 - [Junayed](#junayed)
 - [Jahid](#jahid)
 - [Abir](#abir)
+- [Maisha](#maisha)
 - [Judging Criteria](#judging-criteria)
 
 ---
