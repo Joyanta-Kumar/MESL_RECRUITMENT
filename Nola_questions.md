@@ -800,6 +800,65 @@ Blink a predefined message in Morse code.
 
 ---
 
+## Maisha
+
+### Smart Home Automation System
+Control home appliances via Bluetooth.
+
+#### Required Components:
+- Arduino Uno  
+- HC-05 Bluetooth Module  
+- Mobile app for control  
+- Relay module (for light/fan)  
+- Jumper wires  
+- Breadboard  
+
+#### What it does:
+1. Connects Arduino to smartphone via Bluetooth.  
+2. Control light, fan, or other appliances using mobile app.  
+3. Relay switches devices ON/OFF as per commands.  
+
+#### Skill Tested:
+- Bluetooth communication with Arduino  
+- Relay control for appliances  
+- Mobile app integration  
+
+---
+
+### Earthquake Detector
+Detect vibrations and trigger an alarm.
+
+#### Required Components:
+- Arduino Uno  
+- Accelerometer (ADXL335 / MPU6050)  
+- Buzzer  
+- LED (optional)  
+- Jumper wires  
+- Breadboard  
+
+#### What it does:
+1. Accelerometer detects sudden vibrations or shakes.  
+2. Arduino processes data to identify abnormal movement.  
+3. Triggers buzzer/LED alarm when threshold exceeded.  
+
+#### Skill Tested:
+- Sensor integration (accelerometer)  
+- Vibration detection logic  
+- Alarm triggering  
+
+---
+
+### Smart Dustbin
+An automatic dustbin that opens and alerts when full.
+
+#### Required Components:
+- Arduino Uno  
+- Ultrasonic Sensor (HC-SR04)  
+- Servo Motor (for lid control)  
+- Buzzer
+
+---
+
 
 
 
