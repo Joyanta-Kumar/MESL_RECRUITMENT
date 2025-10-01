@@ -26,6 +26,7 @@ These items are assumed available for every project and are not repeated in indi
 - [Rabiul](#rabiul)
 - [Junayed](#junayed)
 - [Jahid](#jahid)
+- [Abir](#abir)
 - [Judging Criteria](#judging-criteria)
 
 ---
@@ -726,6 +727,78 @@ Measure voltage and display it digitally on an LCD.
 
 ---
 
+## Abir
+
+### Reaction-Based “Whack-a-LED” Game
+A mini reaction game using LEDs and buttons.
+
+#### Required Components:
+- Arduino Uno  
+- 4 LEDs  
+- 4 Push Buttons  
+- Resistors  
+- Jumper wires  
+- Breadboard  
+
+#### What it does:
+1. Arduino randomly turns on one LED.  
+2. Player must press the matching button as quickly as possible.  
+3. Correct press → score +1; Wrong press → score -1.  
+4. Game runs for 30 seconds and prints final score on Serial Monitor.  
+
+#### Skill Tested:
+- Random selection and timing with `millis()`  
+- Button input handling  
+- Game-like logic and scoring  
+
+---
+
+### Electronic Dice with 7-Segment Display
+Simulate dice rolls using a 7-segment display.
+
+#### Required Components:
+- Arduino Uno  
+- Push Button  
+- Common Cathode 7-Segment Display  
+- Resistors  
+- Jumper wires  
+- Breadboard  
+
+#### What it does:
+1. Press button to start dice roll simulation.  
+2. Arduino cycles random numbers 1–6 for ~1 second.  
+3. Stops at a random number and displays it on 7-segment display.  
+
+#### Skill Tested:
+- 7-segment display decoding  
+- Random number generation  
+- Timing control and circuit wiring  
+
+---
+
+### Morse Code Messenger
+Blink a predefined message in Morse code.
+
+#### Required Components:
+- Arduino Uno  
+- Push Button  
+- LED  
+- Resistor  
+- Jumper wires  
+- Breadboard  
+
+#### What it does:
+1. Stores a predefined message (e.g., “HELLO”) in Arduino.  
+2. When button pressed → LED blinks message in Morse code.  
+3. Stops after message, ready to replay on next button press.  
+
+#### Skill Tested:
+- Mapping letters to Morse patterns  
+- Timing short/long blinks  
+- Button-triggered event handling  
+- Structured programming
+
+---
 
 
 
